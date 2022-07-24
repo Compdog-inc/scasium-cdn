@@ -7,7 +7,6 @@
         "clean": "rm -rf build node_modules",
         "build": "eslint . && tsc",
         "start": "vercel dev",
-        "dev": "nodemon --ext ts --watch src --exec ./node_modules/.bin/ts-node ./src/server.ts",
         "lint": "eslint .",
         "lint-fix": "eslint . --fix"
     },
