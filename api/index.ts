@@ -1,5 +1,7 @@
-import { Request, Response } from "express";
+import type { NowRequest, NowResponse } from '@vercel/node';
 
-export default async (_: Request, res: Response) => {
-    res.json({ result: "ok" });
-};
+export default function (_: NowRequest, res: NowResponse) {
+    res.json({
+        result: "ok"
+    });
+}

@@ -4,15 +4,11 @@
     "description": "CDN for Scasium",
     "private": true,
     "scripts": {
-        "clean": "rm -rf build node_modules",
-        "build": "eslint . && tsc",
         "start": "vercel dev",
         "lint": "eslint .",
         "lint-fix": "eslint . --fix"
     },
     "dependencies": {
-        "body-parser": "^1.20.0",
-        "debug": "^4.3.4",
         "express": "^4.18.1"
     },
     "devDependencies": {
