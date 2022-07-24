@@ -1,1 +1,1 @@
-# scasium-cdn
+# CDN for Scasium
