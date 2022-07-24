@@ -20,7 +20,7 @@
         "sourceMap": true
     },
     "include": [
-        "api/**/*.ts"
+        "**/*.ts"
     ],
     "exclude": [
         "node_modules"
