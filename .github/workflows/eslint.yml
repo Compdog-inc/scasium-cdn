@@ -15,6 +15,4 @@ jobs:
       uses: Compdog-inc/eslint-check-action@v1.1.1
       with:
         ghToken: ${{ secrets.GITHUB_TOKEN }}
-        eslintFiles: "api"
         eslintConfig: ".eslintrc.json"
-        eslintExt: "ts" 
