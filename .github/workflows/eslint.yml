@@ -17,4 +17,4 @@ jobs:
         ghToken: ${{ secrets.GITHUB_TOKEN }}
         eslintFiles: "api"
         eslintConfig: ".eslintrc.json"
-        eslintExt: "ts"
+        eslintExt: "ts" 
