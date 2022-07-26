@@ -66,4 +66,31 @@ export namespace Api {
             };
         }
     }
+
+    export enum AttachmentType {
+        Other = 0,
+        Image = 1,
+        Video = 2,
+        Audio = 3,
+        Document = 4,
+        PDF = 5,
+        Presentation = 6,
+        Table = 7,
+        HTML = 8,
+        EXE = 9,
+        APP = 10,
+        APK = 11,
+        ZIP = 12,
+        RAR = 13,
+        Archive = 14
+    }
+
+    export interface Attachment {
+        id: string;
+        url: string;
+        thumb?: string;
+        name: string;
+        blur: string;
+        type: AttachmentType;
+    }
 }
