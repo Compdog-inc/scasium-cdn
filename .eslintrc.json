@@ -20,13 +20,8 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "@typescript-eslint/strict-boolean-expressions": [
-            2,
-            {
-                "allowString": false,
-                "allowNumber": false
-            }
-        ],
+        "@typescript-eslint/no-namespace": 0,
+        "@typescript-eslint/no-explicit-any": 0,
         "semi": "error",
         "prefer-const": "error"
     }
