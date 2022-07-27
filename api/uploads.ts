@@ -10,7 +10,7 @@ export default function (req: NowRequest, res: NowResponse) {
                 const imgExt = imgFile.split('.')[1].toUpperCase();
 
                 if (imgExt === 'PNG') {
-                    fs.readFile('internal/uploads/demoimage.png', (err, data) => {
+                    fs.readFile('../internal/uploads/demoimage.png', (err, data) => {
                         if (err) {
                             console.log(err);
                             res.status(500).end();
