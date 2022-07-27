@@ -5,5 +5,9 @@
             "key": "X-Robots-Tag",
             "value": "noindex"
         }]
+    }],
+    "rewrites": [{
+        "source": "/api/uploads/(.*)",
+        "destination": "/api/uploads"
     }]
 }
