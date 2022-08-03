@@ -1,7 +1,7 @@
 import type { NowRequest, NowResponse } from '@vercel/node';
 
-export default function (_: NowRequest, res: NowResponse) {
+export default function (req: NowRequest, res: NowResponse) {
     res.json({
-        result: "ok"
+        result: req.method + " OK"
     });
 }
